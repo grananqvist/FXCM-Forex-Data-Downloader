@@ -1,2 +1,73 @@
-# FXCM-Data-Downloader
-Simple python script that bulk downloads historical data from FXCM
+# FXCM-Forex-Data-Downloader
+Simple python script that bulk downloads historical data from FXCM  
+Free download of 17 years of data. Down to 1m timeframe  
+
+## How to run
+```python
+pip install fxcmpy tqdm  
+python main.py -t <FXCM API key> -s GER30 EUR/USD AUD/NZD -pe <timeframe period> -p <path to store data>  
+``` 
+
+
+## Available symbols  
+ * 'EUR/USD'  
+ * 'CHF/JPY'  
+ * 'GBP/CHF'  
+ * 'EUR/AUD'  
+ * 'EUR/CAD'  
+ * 'AUD/CAD'  
+ * 'CAD/JPY'  
+ * 'NZD/JPY'  
+ * 'GBP/CAD'  
+ * 'GBP/NZD'  
+ * 'AUD/NZD'  
+ * 'USD/SEK'  
+ * 'EUR/SEK'  
+ * 'EUR/NOK'  
+ * 'USD/NOK'  
+ * 'USD/MXN'  
+ * 'AUD/CHF'  
+ * 'EUR/NZD'  
+ * 'USD/ZAR'  
+ * 'USD/HKD'  
+ * 'ZAR/JPY'  
+ * 'USD/TRY'  
+ * 'EUR/TRY'  
+ * 'NZD/CHF'  
+ * 'CAD/CHF'  
+ * 'NZD/CAD'  
+ * 'TRY/JPY'  
+ * 'XAU/USD'  
+ * 'GBP/USD'  
+ * 'UK100'  
+ * 'USDOLLAR'  
+ * 'XAG/USD'  
+ * 'GER30'  
+ * 'FRA40'  
+ * 'USD/CNH'  
+ * 'EUR/JPY'  
+ * 'USD/JPY'  
+ * 'AUS200'  
+ * 'ESP35'  
+ * 'HKG33'  
+ * 'JPN225'  
+ * 'NAS100'  
+ * 'SPX500'  
+ * 'CHN50'  
+ * 'GBP/JPY'  
+ * 'AUD/JPY'  
+ * 'USD/CHF'  
+ * 'AUD/USD'  
+ * 'EUR/CHF'  
+ * 'EUR/GBP'  
+ * 'NZD/USD'  
+ * 'USD/CAD'  
+ * 'GBP/AUD'  
+ * 'US30'  
+ * 'USOil'  
+ * 'UKOil'  
+ * 'SOYF'  
+ * 'Copper'  
+ * 'EUSTX50'  
+ * 'NGAS'  
+ * 'Bund'  
